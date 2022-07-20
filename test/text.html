@@ -1,0 +1,17 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.2/jquery.min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    $.ajax(
+        type: 'GET',
+        url: "http://localhost/topdev_info.json",
+        success: function(response) {
+            console.log("Data type: " + (typeof response));
+            console.log("Application name: " + response.name);
+        },
+    );
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #E7E7E7;
+}
+.main-contaner{
+	width: 500px;
+	height:260px;
+	margin: 20px;
+	padding: 20px;
+	background-color: #FFFFFF;
+}
+.follow-title{
+	font-family: 'Roboto', sans-serif;	
+	background-color: #FFFFFF;
+	border-bottom: 2px solid black;
+	padding-top: 5px;
+	padding-bottom: 5px ;
+}
+.follow-title h3{
+	background-color: black;
+	display: inline;
+	color: #FADA1A;
+	padding:6px 10px;
+}

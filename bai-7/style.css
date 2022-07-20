@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.main-contant{
+	width: 900px;
+	background-color: #F7F9FA ;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 70px;
+}
+/*khối tin chính*/
+article.tin{
+	padding: 10px;
+	background-color: #FFFFFF;
+	width: 880px;
+	display: block;
+	overflow: hidden;
+}
+.main-contant img.hinh{
+	width: 50%;
+}
+.main-contant h3 {
+	color: white;
+	background-color: red;
+	width: 30px;
+
+}
+
+.link-img{
+	display: block; /*đóng khối tab a để có thể hiểu margin và padding*/
+	margin-bottom: 10px;
+
+}
+.link-new{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: Arial;
+	display: block;
+	margin-bottom: px;
+}
+a.link-new:hover{
+	color: orange;
+}
+
+.khoi-tin-phu{
+	width: 270px;
+	float: left;
+	margin-right: 20px;
+
+}
+div.khoi-tin-phu p {
+	color: red;
+	font-size: 10px;
+	font-style: italic;
+}
+div.tieu-de{
+	color: red;
+	border-bottom: 2px solid red;
+	font-weight: bold;
+	font-family: Arial;
+}
+div.video {
+	width: 100%;
+	margin-top: 20px;
+	 text-align: center;
+}
